@@ -1,0 +1,35 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12">
+            <h3>How do you stack up?</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-3">
+            <span>#</span>
+        </div>
+        <div class="col-xs-3">
+            <h4>Avatar</h4>
+        </div>
+        <div class="col-xs-3">
+            <h4>Player</h4>
+        </div>
+        <div class="col-xs-3">
+            <h4>Points</h4>
+        </div>
+    </div>
+    <div class="row {{player.status}}" ng-repeat="player in allPlayers | orderBy:'-points' ">
+        <div class="col-xs-3">
+            <h5 class="dashboard-view">{{$index+1}}</h5>
+        </div>
+        <div class="col-xs-3">
+            <img class="img-responsive" ng-src="./images/{{player.avatar}}.png"></img>
+        </div>
+        <div class="col-xs-3">
+            <h5 class="dashboard-view">{{player.profileId}}</h5>
+        </div>
+        <div class="col-xs-3">
+            <h5 class="dashboard-view">{{player.points}}</h5>
+        </div>
+    </div>
+</div>

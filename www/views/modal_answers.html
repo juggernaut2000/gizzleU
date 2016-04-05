@@ -1,0 +1,29 @@
+<!--<div> -->
+<div>
+    <div class="modal-header">
+        <h3 class="modal-title">
+            <i class="{{question.modalIcon}}"></i>
+            {{question.modalTitle}}
+        </h3>
+    </div>
+    <div class="modal-body">
+        <h4>
+            {{question.displayText}}
+            <span class="rackem">{{question.displayHighlight}}</span>
+            {{question.displayPostText}}
+        </h4>
+        <div class="funfact-popover" ng-hide="!answerState">
+            <div class="popover bottom">
+                <div class="arrow"></div>
+                <h4 class="popover-title">{{question.answerTitle}}</h4>
+                <div class="popover-content">
+                  <h6>{{question.funfact}}</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-primary" type="button" ng-click="ok()">OK</button>
+    </div>
+</div>
+

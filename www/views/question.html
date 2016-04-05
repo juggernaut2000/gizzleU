@@ -1,0 +1,20 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-4">
+            <img class="img-responsive" ng-src="./images/{{currentQuestion.category}}.png"></img>
+        </div>
+        <div class="col-xs-8">
+            <h5>{{currentQuestion.questionText}}</h5>
+        </div>
+    </div>
+   <div class="row">
+        <div class="col-xs-12">
+            <div class="list-group">
+                <button type="button" class="list-group-item"  ng-repeat="answer in currentQuestion.answerChoices"
+                    ng-click="question.selectedAnswer = answer">{{answer}}</button>
+            </div>
+            <button type="button" class="btn btn-primary" ng-click="checkAnswer()">Run It!</button>
+        </div>
+    </div>
+</div>
+

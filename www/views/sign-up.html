@@ -1,0 +1,37 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <form class="form-signin">
+                <h4 class="form-signin-heading">Please enter your information and select an avatar.</h4>
+                <label for="userName" class="sr-only">User Name</label>
+                <input type="text" id="userName" class="form-control" placeholder="User Name" ng-model="player.userName" required></input>
+                <label for="inputPassword" class="sr-only">Password</label>
+                <input type="text" id="password" class="form-control" placeholder="Password" ng-model="player.password"></input>
+                <div class="image-group btn-group-xs" data-toggle="buttons">
+                  <label class="btn btn-xs image-radio">
+                    <img class="img-responsive" src="./images/cat-girl.png" ng-click="player.avatar = cat-girl"></img>
+                    <input type="radio" name="options" id="cat-girl" autocomplete="off">
+                  </label>
+                  <label class="btn btn-xs image-radio">
+                    <img class="img-responsive" src="./images/horn-girl.png" ng-click="player.avatar = 'horn-girl'"></img>
+                    <input type="radio" name="options" id="horn-girl" autocomplete="off">
+                  </label>
+                  <label class="btn btn-xs image-radio">
+                    <img class="img-responsive" src="./images/pink-girl.png" ng-click="player.avatar = 'pink-girl'"></img>
+                    <input type="radio" name="options" id="pink-girl" autocomplete="off">
+                  </label>
+                  <label class="btn btn-xs image-radio">
+                    <img class="img-responsive" src="./images/princess-girl.png" ng-click="player.avatar = 'princess-girl'"></img>
+                    <input type="radio" name="options" id="princess-girl" autocomplete="off">
+                  </label>
+                  <label class="btn btn-xs image-radio">
+                    <img class="img-responsive" src="./images/boy.png" ng-click="player.avatar = 'boy'"></img>
+                    <input type="radio" name="options" id="boy" autocomplete="off">
+                  </label>
+                </div>
+                <button class="btn btn-primary btn-block" type="button" ng-click="signUp()">Sign up</button>
+                <button class="btn btn-danger btn-block" type="button" ng-click="cancel()">Cancel</button>
+            </form>
+        </div>
+    </div>
+</div> <!-- /container -->

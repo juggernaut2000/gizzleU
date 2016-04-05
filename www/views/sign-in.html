@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <form class="form-signin">
+                <h4 class="form-signin-heading">Please Sign In</h4>
+                <label for="userName" class="sr-only">User Name</label>
+                <input type="text" id="userName" class="form-control" placeholder="User Name" ng-model="player.userName" required></input>
+                <label for="inputPassword" class="sr-only">Password</label>
+                <input type="password" id="password" class="form-control" placeholder="Password" ng-model="player.password"></input>
+                <div class="image-group"></div>
+                <button class="btn btn-primary btn-block" type="button" ng-click="signIn()">Sign in</button>
+                <button class="btn btn-danger btn-block" type="button" ng-click="cancel()">Cancel</button>
+            </form>
+        </div>
+    </div>
+</div> <!-- /container -->

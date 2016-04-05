@@ -1,0 +1,110 @@
+.title{
+    color: #F8B5ED;
+	padding-left: 5.5%;
+}
+.gizzle{
+    color: #F8B5ED;
+    font-size: 1.0em;
+}
+.game-tile{
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    font-size: 20px;
+    border: 1px solid #ECEAEA;
+    text-align: center;
+}
+
+.fashion-column {
+    background-color: #F8B5ED;
+}
+.hair-makeup-column {
+    background-color: #F35AE6;
+}
+.pop-culture-column {
+    background-color: #BB3ECE;
+}
+.music-column {
+    background-color: #DA6DFC;
+}
+
+.fashion-title {
+    color: #F8B5ED;
+}
+.hair-makeup-title {
+    color: #F35AE6;
+}
+.pop-culture-title {
+    color: #BB3ECE;
+}
+.music-title {
+    color: #DA6DFC;
+}
+.score {
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.rackem {
+    font-family: "AR DELANEY", Georgia, Serif;
+    color: #DA6DFC;
+    font-size: 20px;
+}
+.image-group {
+    padding-bottom: 2.5%;
+    padding-top: 2.5%;
+}
+.image-radio {
+    background-color: #F1F6F9;
+    border-color: #E7EAEC;
+}
+.image-radio:active {
+    background-color: #E6EAED;
+    border-color: #d4d7da;
+}
+.image-radio:hover {
+    background-color: #E6EAED;
+    border-color: #d4d7da;
+}
+.dashboard-view {
+    padding-top: 50.5%;
+}
+.active {
+    background-color: #E6EAED;
+}
+.frazie {
+		font-family: "ravie", Georgia, Serif;
+		font-size: 6.5vw;
+		color: #FFFFFF;
+}
+
+.fgothic{
+		font-family: "Showcard Gothic", Georgia, Serif;
+		font-size: 6.5vw;
+		color: #FFFFFF;
+}
+
+.fcurlzmt{
+		font-family: "Curlz MT", Georgia, Serif;
+		font-size: 6.5vw;
+		color: #FFFFFF;
+}
+
+.fjokerman{
+		font-family: "Jokerman", Georgia, Serif;
+		font-size: 6.5vw;
+		font-weight: 900;
+		color: #FFFFFF;
+}
+.fheader{
+		font-family: "Calibri", Georgia, Serif;
+		font-size: 5.5vw;
+		color: #FFFFFF;
+		vertical-align: bottom;
+		text-align: center;
+        line-height: 1.0
+}
+.funfact-popover .popover {
+  position: relative;
+  display: block;
+  margin: 20px;
+}
