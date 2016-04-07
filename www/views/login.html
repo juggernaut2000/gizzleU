@@ -6,15 +6,20 @@
     </div>
     <div class="row">
         <div class="col-xs-12">
+          <h5>This game will test your brain power and knowledge of all things coolness.  Get wit it. Power up!</h5>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
             <form class="form-signin">
-                <h4 class="form-signin-heading">Please enter your information and select an avatar.</h4>
-                <label for="profileId" class="sr-only">User Name</label>
-                <input type="text" id="profileId" class="form-control" placeholder="User Name" ng-model="player.profileId" required></input>
+                <h5 class="form-signin-heading">Please select your screen name and avatar.</h5>
+                <label for="profileId" class="sr-only">Screen Name</label>
+                <input type="text" id="profileId" class="form-control" placeholder="Screen Name" ng-model="player.profileId" required></input>
                 <label for="inputPassword" class="sr-only">Password</label>
                 <input type="text" id="password" class="form-control" placeholder="Password" ng-model="player.password"></input>
                 <div class="image-group btn-group-xs" data-toggle="buttons">
                   <label class="btn btn-xs image-radio">
-                    <img class="img-responsive" src="./images/cat-girl.png" ng-click="player.avatar = cat-girl"></img>
+                    <img class="img-responsive" src="./images/cat-girl.png" ng-click="player.avatar = 'cat-girl'"></img>
                     <input type="radio" name="options" id="cat-girl" autocomplete="off">
                   </label>
                   <label class="btn btn-xs image-radio">

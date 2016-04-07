@@ -88,7 +88,8 @@ stemApp.controller('LoginController', ['$scope', '$location','loginService','pla
         $scope.player = {
             "profileId": "",
             "password": "",
-            "avatar": ""
+            "avatar": "",
+            "points": 0
         };
 
         $scope.login = function() {

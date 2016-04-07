@@ -108,3 +108,16 @@
   display: block;
   margin: 20px;
 }
+.question-image {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.instructions {
+    color: #BB27CB;
+}
+hr {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    border: 0;
+    border-top: 1px solid #ddbde0;
+}
